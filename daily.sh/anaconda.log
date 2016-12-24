@@ -1,0 +1,15 @@
+02:07:22,642 DEBUG anaconda: setting locale to: en_US.UTF-8
+02:07:25,568 DEBUG anaconda: Detected primary monitor: 1024x768 -26009dpix -19507dpiy
+02:07:42,521 DEBUG anaconda: Entered hub: InitialSetupMainHub
+02:07:44,355 DEBUG anaconda: network: GUI, device configuration added: connection 242ae900-74ad-4a15-be6f-5930ae2e52ae device enp0s3
+02:07:44,410 DEBUG anaconda: network: GUI, not adding connection 242ae900-74ad-4a15-be6f-5930ae2e52ae, already in list
+02:07:45,564 DEBUG anaconda: updating hostname localhost.localdomain
+02:07:45,565 INFO anaconda: setting <pyanaconda.ui.gui.spokes.network.NetworkSpoke object at 0x4875c10> status to: Wired (enp0s3) connected
+02:07:49,027 DEBUG anaconda: network: GUI, device configuration added: connection e0068257-b151-4332-a276-ad6908e41197 device virbr0-nic
+02:07:49,048 DEBUG anaconda: network: GUI, not adding connection e0068257-b151-4332-a276-ad6908e41197, already in list
+02:07:49,104 DEBUG anaconda: network: can't find 'connection' 'read-only' in connection f506579d-13b6-4f9d-bf07-fa0a70b107d2
+02:07:49,130 DEBUG anaconda: network: GUI, device configuration added: connection f506579d-13b6-4f9d-bf07-fa0a70b107d2 device virbr0
+02:07:49,156 DEBUG anaconda: network: GUI, adding connection f506579d-13b6-4f9d-bf07-fa0a70b107d2
+02:07:55,417 DEBUG anaconda: Entered spoke: EULAspoke
+02:08:05,796 DEBUG anaconda: Left spoke: EULAspoke
+02:08:31,559 INFO anaconda: setting <pyanaconda.ui.gui.spokes.network.NetworkSpoke object at 0x4875c10> status to: Connected: virbr0 (), enp0s3
